@@ -1,5 +1,7 @@
 Simple Geth BlockScanner
 
-web3 1.2.3 ver
+npm install
+web3 1.2.2
+express
 
 https://web3js.readthedocs.io/en/v1.2.3/

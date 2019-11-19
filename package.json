@@ -1,0 +1,24 @@
+{
+  "name": "blockScanner",
+  "version": "1.0.0",
+  "description": "Simple Geth BlockScanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opdata/blockScanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Opdata/blockScanner/issues"
+  },
+  "homepage": "https://github.com/Opdata/blockScanner#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.2.2"
+  }
+}
