@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>block Scanner</title>
+  </head>
+  <body>
+    <h2>Simple Geth(Priavte Ethereum) Block Scanner</h2>
+    <article class="latestBlock">
+      <h3>Latest Blocks</h3>
+      <br />
+      <!-- 블록누르면 블록조회, 경과된 시간,마이너이름, 보상금 -->
+      <!-- view all blocks 버튼 누르면 view blocks-->
+    </article>
+    <article class="latestTx">
+      <h3>Latest Transactions</h3>
+      <br />
+      <!-- 트랜잭션 주소 누르면 조회, 경과된 시간, from, to 나오고 전송한 이더량-->
+      <!-- view all tx 버튼 누르면 view txs-->
+    </article>
+
+    <!--view TX-->
+    <article class="viewTX">
+      <h3>Transactions</h3>
+      <div>
+        <table class="txList">
+          <thead>
+            <tr>
+              <td>More than ></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Txn Hash</th>
+              <th>Block</th>
+              <th>Age</th>
+              <th>From</th>
+              <th>To</th>
+              <th>Value</th>
+              <th>[Txn Fee]</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <!--view Blocks-->
+    <script src="js/index.js"></script>
+  </body>
+</html>
